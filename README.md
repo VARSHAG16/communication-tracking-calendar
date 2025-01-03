@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Communication Tracking Calendar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based application to efficiently track and manage communication schedules. This app allows users to organize tasks with a calendar view, marking tasks as overdue, due, or completed, with visual highlights for better management.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Access the live application here: [Communication Tracking Calendar](https://communication-tracking-calendar-rose.vercel.app/)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Calendar-based interface for task tracking.
+- Color-coded highlights for:
+  - Overdue communications (Red)
+  - Due communications (Yellow)
+  - Completed communications (Green)
+- Tooltips for quick task details.
+- Sample data included for demonstration purposes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup and Installation
 
-### `npm test`
+To run the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/VARSHAG16/communication-tracking-calendar.git
+   
+**2. Navigate to the project directory:**
+   cd communication-tracking-calendar
 
-### `npm run build`
+**3. Install dependencies:**
+   npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**4. Start the development server:**
+   npm start
+   (The application will run on http://localhost:3000.)
+   
+**Deployment**
+The application is deployed on Vercel. You can access the live version at: https://communication-tracking-calendar-rose.vercel.app/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Application Functionality**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - Home Screen: Displays the calendar with tasks and their statuses.
+  - Add/Edit Tasks: Users can add or modify tasks with deadlines and completion status.
+  - Sample Data: Preloaded with mock tasks to demonstrate functionality.
 
-### `npm run eject`
+**Known Limitations**
+  - Task notifications or reminders are not included.
+  - Limited to basic CRUD operations for tasks.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Code Structure**
+The project follows React best practices with a clear separation of concerns:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Components:** 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - Reusable React components for modular development.
+  - Services: Handles data and API interactions (if applicable).
+  - Utilities: Helper functions for task management and UI updates.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Testing and Validation**
+The application has been tested for:
+  - Smooth user interface with no noticeable delays.
+  - Accurate handling of overdue, due, and completed tasks.
+  - Proper rendering of color-coded highlights and tooltips.
 
-## Learn More
+**Future Enhancements**
+  - Add user authentication for personalized calendars.
+  - Integrate notifications for task deadlines.
+  - Provide export/import options for task data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Credits**
+  Developed by: Varsha G
+  GitHub: VARSHAG16
+  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Feedback**
+  For any questions or feedback, please reach out at varshag1616@gmail.com / varshag1890@gmail.com 
