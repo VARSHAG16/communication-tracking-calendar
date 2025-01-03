@@ -68,8 +68,9 @@ The application has been tested for:
   - Provide export/import options for task data.
 
 **Credits**
-  Developed by: Varsha G
-  GitHub: VARSHAG16
+
+ - Developed by: Varsha G
+ - GitHub: VARSHAG16
   
 
 **Feedback**
